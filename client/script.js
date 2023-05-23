@@ -73,7 +73,7 @@ const handleSubmit = async (e)=>{
   loader(messageDiv);
 
   // Fetch Data
-  const response = await fetch('https://jyyai.netlify.app/',{
+  const response = await fetch('https://starlit-heliotrope-1c77a5.netlify.app/',{
     method: 'POST',
     headers:{
       'Content-Type': 'application/json'
